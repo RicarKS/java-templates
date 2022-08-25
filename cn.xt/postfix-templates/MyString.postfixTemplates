@@ -1,0 +1,8 @@
+.trim : StrUtil.trim()
+    java.util.Map → $clazz#1::"StrUtil"$.trim($expr$.get("$valueName#2$"))$END$
+    ANY → $clazz#1::"StrUtil"$.trim($expr$)$END$
+.trimVar : String var = StrUtil.trim()
+    java.util.Map → String $var#3$ = $clazz#2::"StrUtil"$.trim($expr$.get("$valueName#1$"));\
+        $END$
+    ANY → String $var#2$ = $clazz#1::"StrUtil"$.trim($expr$);\
+        $END$
