@@ -1,0 +1,7 @@
+- lang: java
+  id: MyString
+  url: https://gitee.com/ricaran/java-templates/blob/master/cn.xt/postfix-templates/MyString.postfixTemplates
+  author: XuTao
+  email: 1398576352@qq.com
+  website:
+  description: Provides templates for StrUtil
